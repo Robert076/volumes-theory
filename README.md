@@ -11,7 +11,7 @@ These two are **not** the same, as PersistentVolume is a resource on its own whe
 
 Volumes are *storage-bound to the Pod's lifecycle*. Volumes are nothing more than **storage attached to the life cycle of the Pod**. As soon as the pod is deleted, the volumes that were created with it are deleted too.
 
-🚀 Run the script:
+🚀 Run the script (emptyDir volume):
 
 1) Create the pod:
 ```bash
