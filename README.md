@@ -32,3 +32,5 @@ kubectl exec pod/two-containers-with-empty-dir -c nginx-container -- ls /var
 ```bash
 kubectl exec pod/two-containers-with-empty-dir -c busybox-container -- ls /var
 ```
+
+> ❗️ In the case of the hostPath volume, make sure you have the file created on your host before proceeding. Also keep in mind it is an antipattern.
