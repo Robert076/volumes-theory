@@ -14,8 +14,8 @@ spec:
       command: ["/bin/sh"]
       args: ["-c", "while true; do sleep 30; done;"]
       volumeMounts:
-        - mountPath: /var/i-am-empty-dir-volume
+        - mountPath: /var/i-am-empty-dir-volume 
           name: empty-dir-volume
   volumes:
     - name: empty-dir-volume
-      emptyDir: {} # Initialize an empty directory # The path on the worker node
+      emptyDir: {} # Initialize an empty directory 
